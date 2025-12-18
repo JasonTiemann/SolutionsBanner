@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3984 1834" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Custom-Button-Container" serif:id="Custom Button Container">
+        <path id="Custom-Button" serif:id="Custom Button" d="M2565.216,1227.874l1.63,-484.202c1115.395,145.238 1265.603,718.801 1265.603,718.801c0,0 -224.66,-147.043 -1267.233,-234.599Z" style="fill:#00244d;stroke:#000;stroke-width:12.5px;"/>
+        <g transform="matrix(1.388889,0,0,1.388889,0,0)">
+            <g transform="matrix(0.999466,-0.032675,0.032675,0.999466,-23.377091,65.000276)">
+                <text x="1977.088px" y="747.756px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">C</text>
+            </g>
+            <g transform="matrix(0.993796,0.11122,-0.11122,0.993796,95.608699,-221.457855)">
+                <text x="2032.803px" y="746.243px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">u</text>
+            </g>
+            <g transform="matrix(0.980308,0.197477,-0.197477,0.980308,189.34395,-395.756185)">
+                <text x="2079.002px" y="751.496px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">s</text>
+            </g>
+            <g transform="matrix(0.967781,0.251795,-0.251795,0.967781,259.702892,-509.478909)">
+                <text x="2120.647px" y="760.053px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">t</text>
+            </g>
+            <g transform="matrix(0.955404,0.295302,-0.295302,0.955404,322.157763,-599.880981)">
+                <text x="2147.199px" y="766.678px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">o</text>
+            </g>
+            <g transform="matrix(0.936576,0.350464,-0.350464,0.936576,412.556966,-718.932568)">
+                <text x="2192.597px" y="780.376px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">m</text>
+            </g>
+            <g transform="matrix(0.912819,0.408365,-0.408365,0.912819,530.557999,-859.096607)">
+                <text x="2277.323px" y="813.043px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">C</text>
+            </g>
+            <g transform="matrix(0.899544,0.436831,-0.436831,0.899544,600.032881,-934.382247)">
+                <text x="2331.579px" y="837.419px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">o</text>
+            </g>
+            <g transform="matrix(0.888661,0.458565,-0.458565,0.888661,658.25751,-993.679695)">
+                <text x="2375.43px" y="858.721px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">d</text>
+            </g>
+            <g transform="matrix(0.878228,0.478242,-0.478242,0.878228,716.445092,-1050.048236)">
+                <text x="2420.182px" y="881.845px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">e</text>
+            </g>
+        </g>
+    </g>
+    <g id="Automation-Button-Container" serif:id="Automation Button Container">
+        <path id="Automation-Button" serif:id="Automation Button" d="M1436.801,1225.723c462.759,-26.704 699.05,-33.309 1128.416,2.214l0,-484.265c-188.355,-54.53 -891.549,-69.091 -1126.922,0l-1.494,482.051Z" style="fill:#00244d;stroke:#000;stroke-width:12.5px;"/>
+        <g transform="matrix(1.388889,0,0,1.388889,0,0)">
+            <g transform="matrix(0.988787,-0.149332,0.149332,0.988787,-92.112713,190.978627)">
+                <text x="1225.661px" y="708.863px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">A</text>
+            </g>
+            <g transform="matrix(0.995016,-0.099718,0.099718,0.995016,-63.47183,131.252004)">
+                <text x="1281.209px" y="700.55px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">u</text>
+            </g>
+            <g transform="matrix(0.997839,-0.065701,0.065701,0.997839,-42.853212,88.787192)">
+                <text x="1328.499px" y="695.936px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">t</text>
+            </g>
+            <g transform="matrix(0.999359,-0.035801,0.035801,0.999359,-23.974562,48.986669)">
+                <text x="1355.88px" y="693.941px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">o</text>
+            </g>
+            <g transform="matrix(0.999961,0.008809,-0.008809,0.999961,6.150261,-12.330913)">
+                <text x="1402.782px" y="691.963px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">m</text>
+            </g>
+            <g transform="matrix(0.998522,0.05435,-0.05435,0.998522,39.829544,-79.019111)">
+                <text x="1472.732px" y="692.782px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">a</text>
+            </g>
+            <g transform="matrix(0.996414,0.084612,-0.084612,0.996414,64.272537,-125.913788)">
+                <text x="1517.594px" y="695.293px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">t</text>
+            </g>
+            <g transform="matrix(0.994536,0.104392,-0.104392,0.994536,81.274002,-157.516305)">
+                <text x="1545.412px" y="697.664px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">i</text>
+            </g>
+            <g transform="matrix(0.990894,0.134642,-0.134642,0.990894,108.448246,-204.453116)">
+                <text x="1565.809px" y="699.565px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">o</text>
+            </g>
+            <g transform="matrix(0.983901,0.178715,-0.178715,0.983901,152.104123,-276.814819)">
+                <text x="1612.505px" y="705.842px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">n</text>
+            </g>
+        </g>
+    </g>
+    <g id="SEO-Button-Container" serif:id="SEO Button Container">
+        <path id="SEO-Button" serif:id="SEO Button" d="M1438.295,1225.756l-1.63,-484.202c-1115.395,145.238 -1265.603,718.801 -1265.603,718.801c0,0 224.66,-147.043 1267.233,-234.599Z" style="fill:#00244d;stroke:#000;stroke-width:12.5px;"/>
+        <g transform="matrix(1.388889,0,0,1.388889,0,0)">
+            <g transform="matrix(0.914408,-0.404794,0.404794,0.914408,-287.995949,286.746209)">
+                <text x="534.061px" y="824.388px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">S</text>
+            </g>
+            <g transform="matrix(0.932247,-0.361823,0.361823,0.932247,-251.099884,265.014656)">
+                <text x="582.081px" y="802.984px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">E</text>
+            </g>
+            <g transform="matrix(0.951909,-0.306382,0.306382,0.951909,-209.826655,230.876772)">
+                <text x="630.526px" y="783.824px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">O</text>
+            </g>
+        </g>
+    </g>
+    <g id="Gamification-Button-Container" serif:id="Gamification Button Container">
+        <path id="Gamification-Button" serif:id="Gamification Button" d="M1998.316,316.85l2.099,379.053c557.439,1.894 1056.618,132.128 1272.925,236.893c0,0 -236.604,-583.181 -1275.024,-615.946Z" style="fill:#00244d;stroke:#000;stroke-width:12.5px;"/>
+        <g transform="matrix(1.388889,0,0,1.388889,0,0)">
+            <g transform="matrix(0.991845,-0.127452,0.127452,0.991845,-40.361715,203.733195)">
+                <text x="1571.809px" y="417.257px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">G</text>
+            </g>
+            <g transform="matrix(0.999998,-0.002134,0.002134,0.999998,-0.871436,3.479413)">
+                <text x="1629.829px" y="410.048px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">a</text>
+            </g>
+            <g transform="matrix(0.994055,0.108878,-0.108878,0.994055,54.486826,-179.71032)">
+                <text x="1672.906px" y="409.098px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">m</text>
+            </g>
+            <g transform="matrix(0.983497,0.180923,-0.180923,0.983497,104.250962,-308.124516)">
+                <text x="1741.139px" y="417.399px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">i</text>
+            </g>
+            <g transform="matrix(0.976368,0.216114,-0.216114,0.976368,132.597817,-370.658663)">
+                <text x="1761.143px" y="420.977px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">f</text>
+            </g>
+            <g transform="matrix(0.969276,0.245976,-0.245976,0.969276,159.891445,-426.522815)">
+                <text x="1787.311px" y="426.782px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">i</text>
+            </g>
+            <g transform="matrix(0.958469,0.285195,-0.285195,0.958469,198.08006,-497.381254)">
+                <text x="1806.829px" y="431.429px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">c</text>
+            </g>
+            <g transform="matrix(0.943032,0.332703,-0.332703,0.943032,253.355307,-590.520845)">
+                <text x="1851.038px" y="444.554px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">a</text>
+            </g>
+            <g transform="matrix(0.930843,0.365419,-0.365419,0.930843,298.878678,-660.083507)">
+                <text x="1893.351px" y="459.583px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">t</text>
+            </g>
+            <g transform="matrix(0.923226,0.384258,-0.384258,0.923226,327.884221,-701.460454)">
+                <text x="1919.358px" y="469.805px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">i</text>
+            </g>
+            <g transform="matrix(0.9121,0.409968,-0.409968,0.9121,366.19648,-752.777551)">
+                <text x="1938.584px" y="477.586px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">o</text>
+            </g>
+            <g transform="matrix(0.897141,0.441745,-0.441745,0.897141,423.467484,-824.431828)">
+                <text x="1982.056px" y="497.106px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">n</text>
+            </g>
+        </g>
+    </g>
+    <g id="Website-Button-Container" serif:id="Website Button Container">
+        <path id="Website-Button" serif:id="Website Button" d="M1996.773,316.85l-3.301,379.053c-557.439,1.894 -1056.618,132.128 -1272.925,236.893c0,0 237.806,-583.181 1276.226,-615.946Z" style="fill:#00244d;stroke:#000;stroke-width:12.5px;"/>
+        <g transform="matrix(1.388889,0,0,1.388889,0,0)">
+            <g transform="matrix(0.947098,-0.320946,0.320946,0.947098,-98.109989,322.99801)">
+                <text x="930.719px" y="459.103px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">W</text>
+            </g>
+            <g transform="matrix(0.964453,-0.264254,0.264254,0.964453,-79.756436,279.496006)">
+                <text x="999.001px" y="436.201px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">e</text>
+            </g>
+            <g transform="matrix(0.978045,-0.208395,0.208395,0.978045,-65.507768,226.49863)">
+                <text x="1042.187px" y="424.143px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">b</text>
+            </g>
+            <g transform="matrix(0.989176,-0.146732,0.146732,0.989176,-48.962575,164.320945)">
+                <text x="1089.328px" y="414.041px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">s</text>
+            </g>
+            <g transform="matrix(0.995438,-0.095408,0.095408,0.995438,-33.776154,109.759146)">
+                <text x="1130.901px" y="408.088px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">i</text>
+            </g>
+            <g transform="matrix(0.998788,-0.049226,0.049226,0.998788,-18.591214,57.139302)">
+                <text x="1150.757px" y="406.012px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">t</text>
+            </g>
+            <g transform="matrix(0.999738,0.02291,-0.02291,0.999738,9.56897,-26.842835)">
+                <text x="1176.279px" y="404.194px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">e</text>
+            </g>
+            <g transform="matrix(0.992005,0.1262,-0.1262,0.992005,60.865589,-150.734419)">
+                <text x="1220.064px" y="404.998px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:81.872px;fill:#fff;">s</text>
+            </g>
+        </g>
+    </g>
+</svg>
