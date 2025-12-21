@@ -223,17 +223,17 @@
             }
 
             // Vary color
-            if (this.avoidance.x > 0 || this.avoidance.y > 0){
-                if (this.log)
-                    console.log(this.currentColor);
+            let avoidAmount = Math.abs(this.avoidance.x) + Math.abs(this.avoidance.y);
+            if (avoidAmount > 0){
                 if (this.previousColor === undefined){
                     this.previousColor = {...this.currentColor};
                 }
                 this.currentColorVelocity = {r:0, g:0, b:0};
-                let amount = Math.max(Math.abs(this.avoidance.x), Math.abs(this.avoidance.y));
-                this.currentColor.r = Math.max(0, Math.min(255, amount/1.5));
-                this.currentColor.g = this.previousColor.g / (amount/10);
-                this.currentColor.b = this.previousColor.b / (amount/10);
+                
+                this.currentColor.r = Math.max(0, Math.min(255, avoidAmount/1.5));
+                this.currentColor.g = Math.max(0, this.previousColor.g - avoidAmount/4);
+                this.currentColor.b = Math.max(0, this.previousColor.b - avoidAmount/4);
+                // this.currentColor = {r: avoidAmount, g: 0, b: 0};
             }else{
                 if (this.previousColor !== undefined){
                     this.currentColor = this.previousColor;
@@ -243,9 +243,9 @@
                 this.currentColorVelocity.r += (Math.random()*1) - 0.5;
                 this.currentColorVelocity.g += (Math.random()*1) - 0.5;
                 this.currentColorVelocity.b += (Math.random()*1) - 0.5;
-                this.currentColorVelocity.r = Math.max(-1, Math.min(1, this.currentColorVelocity.r));
-                this.currentColorVelocity.g = Math.max(-1, Math.min(1, this.currentColorVelocity.g));
-                this.currentColorVelocity.b = Math.max(-1, Math.min(1, this.currentColorVelocity.b));
+                this.currentColorVelocity.r = Math.max(-5, Math.min(5, this.currentColorVelocity.r));
+                this.currentColorVelocity.g = Math.max(-5, Math.min(5, this.currentColorVelocity.g));
+                this.currentColorVelocity.b = Math.max(-5, Math.min(5, this.currentColorVelocity.b));
                 this.currentColor.r += this.currentColorVelocity.r;
                 this.currentColor.g += this.currentColorVelocity.g;
                 this.currentColor.b += this.currentColorVelocity.b;
@@ -267,7 +267,7 @@
             let xDist = Math.abs(x);
             let yDist = Math.abs(y);
             let totalDist = xDist + yDist;
-            if (totalDist > 200){
+            if (totalDist > 300){
                 this.avoidance = {x:0, y:0};
                 return;
             }
@@ -277,8 +277,8 @@
             let normalizedX = xDir * (xDist / totalDist);
             let normalizedY = yDir * (yDist / totalDist);
             
-            this.avoidance.x = normalizedX * (200 - totalDist) * 2;
-            this.avoidance.y = normalizedY * (200 - totalDist) * 2;
+            this.avoidance.x = normalizedX * (255 - totalDist) * 1.5;
+            this.avoidance.y = normalizedY * (255 - totalDist) * 1.5;
         }
 
         mouseOut = () => {
@@ -320,7 +320,7 @@
             let svg = document.getElementById('BannerSVG');
             let svgTracker = new RelativeMouseTracker(svg);
             let letters = [];
-            let ticker = new Ticker(100);
+            let ticker = new Ticker(120);
 
             var paths = svg.getElementsByTagName('path');
             for (let i = 0; i < paths.length; i++) {
@@ -356,6 +356,11 @@
                 button.addEventListener('mouseleave', (e) => {
                     svg.classList.remove(button.getAttribute('buttontype'));
                 });
+                button.addEventListener('click', (e) => {
+                    let section = ("#" + button.getAttribute('buttontype') + "Section");
+                    if (section)
+                        section.scrollIntoView({behavior: "smooth"});
+                });
             }
         }
 
@@ -388,10 +393,13 @@
     #BannerButtonContainer{
         box-sizing: border-box;
         margin-top: -10vw;
-        width:100vw;
-        height: 20vw;
+        width:50vw;
+        height:25vw;
+        margin-left: 24vw;
         position: relative;
         z-index: 50;
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.5));
+        pointer-events: none;
     }
     #BannerButtonContainer > svg > g > path{
         transition: d 0.5s ease-in-out, fill 0.5s ease-in-out;
@@ -403,6 +411,7 @@
         transform-box: fill-box;
         transition: scale 0.3s ease-in-out;
         cursor: pointer;
+        pointer-events: all;
     }
     #Website-Button-Container:hover > path{
         d: path("M1996.773,316.85l-3.301,379.053c-557.439,1.894 -1056.618,132.128 -1272.925,236.893c0,0 -1219.169,-573.175 1276.226,-615.946Z");
@@ -426,131 +435,26 @@
         pointer-events:none;
         user-select: none;
     }
+
+
+    @media screen and (max-width: 1200px){
+        #BannerSVG{
+            width: 100vw;
+            margin-left: 0;
+        }
+        #BannerButtonContainer > svg{
+            width: 140vw;
+            margin-left: -20vw;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        #BannerSVG{
+            width: 120vw;
+            margin-left: -10vw;
+        }
+    }
     
-    /* .bannerButtonRoundingTop{
-        width:30vw;
-        height: 20vw;
-        position: absolute;
-        width: 30vw;
-        left: 35vw;
-        overflow: hidden;
-        border-radius: 50% 50% 0 0;
-        border-top: 3px solid #000;
-        padding: 0;
-    }
-    .bannerButtonRoundingTop:nth-child(2){
-        top: 20vw;
-        width: 40vw;
-        left: 30vw;
-    }
-    .bannerButtonSubContainer{
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 0;
-        margin: 0;
-        width:100%;
-        height: 10vw;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        z-index: 5;
-    }
-    .bannerButtonSideCover{
-        position: relative;
-        display: flex;
-        background-color: white;
-        width:5vw;
-        height:100%;
-        rotate: 15deg;
-        z-index: 6;
-        margin-right: -2vw;
-        display: none;
-    }
-    .bannerButtonSideCover.right{
-        margin-left: -2vw;
-        margin-right: 0;
-        rotate: -15deg;
-    }
-    .bannerButtonSideCover:nth-of-type(2){
-        rotate: -15deg;
-        margin-right: 0;
-        margin-left: -2vw;
-    }
-    .bannerButtonRoundingTop:nth-child(2) .bannerButtonSubContainer{
-        z-index: 15;
-        border-top: 2px solid #000;
-    }
-    .bannerBottomShadowCover{
-        top: 7vw;
-        background-color: #666;
-        width: 100%;
-        height: 100%;
-        z-index: 9;
-        border-top:3px solid #000; 
-        overflow: hidden;
-        border-radius: 50% 50% 0 0;
-    } 
-    .bannerButtonBottomCover{
-        top: 9vw;
-        background-color: #fff;
-        z-index: 10;
-        width: 106%;
-        left: -3%;
-        overflow: hidden;
-        border-radius: 50% 50% 0 0;
-    }
-    .bannerButton{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transform-origin: 50% 20%;
-        margin: 0;
-        padding: 0;
-        border: 2px solid #000;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-size: 1vw;
-        font-weight: bold;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        cursor: pointer;
-        transition: scale 0.3s ease-in-out, background-color 0.5s ease-in-out;
-        z-index: 5;
-        background-color: #2b2f64;
-    }
-    #BannerButtonContainer > div.bannerButtonRoundingTop:nth-child(2)  div.bannerButton{
-        z-index: 10;
-    }
-    #BannerButtonContainer > div.bannerButtonRoundingTop:nth-child(1) > div > div.bannerButton:nth-child(1) > span{
-        rotate: -13deg;
-        translate: 1.4vw -6vw;
-    }
-    #BannerButtonContainer div.bannerButtonRoundingTop:nth-child(1) div.bannerButton:nth-child(2) > span{
-        rotate: 13deg;
-        translate: -1.8vw -6vw;
-    }
-    #BannerButtonContainer div.bannerButtonRoundingTop:nth-child(2) div.bannerButton:nth-child(1) > span{
-        rotate: -23deg;
-        translate: 1.3vw -5.3vw;
-    }
-    #BannerButtonContainer div.bannerButtonRoundingTop:nth-child(2) div.bannerButton:nth-child(2) > span{
-        translate: 0 -6.7vw;
-    }
-    #BannerButtonContainer div.bannerButtonRoundingTop:nth-child(2) div.bannerButton:nth-child(3) > span{
-        rotate: 21deg;
-        translate: -1.4vw -5vw;
-    }
-    .bannerButton:hover{
-        scale: 1.1;
-        background-color: #565ba3;
-    }
-    .bannerButton:hover{
-        scale: 1.1;
-        background-color: #565ba3;
-    } */
 
     /******************************************** 
     ************ Banner Transforms **************
